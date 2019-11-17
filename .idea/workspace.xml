@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cfcc447e-27f0-4e7b-a0b9-64e42bf40264" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Crawl/myspider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TikiSpiders/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TikiSpiders/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TikiSpiders/TikiSpiders/execute.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TikiSpiders/TikiSpiders/spiders/base_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TikiSpiders/TikiSpiders/spiders/men_jacket_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TikiSpiders/TikiSpiders/spiders/men_shirt_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TikiSpiders/TikiSpiders/spiders/men_shorts_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TikiSpiders/TikiSpiders/spiders/men_trouser_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TikiSpiders/TikiSpiders/spiders/ment_t_shirt_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TikiSpiders/TikiSpiders/spiders/woman_dress_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TikiSpiders/TikiSpiders/spiders/woman_jacket_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TikiSpiders/TikiSpiders/spiders/woman_shirt_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TikiSpiders/TikiSpiders/spiders/women_t_shirt_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/post-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/post-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/post-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/post-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/post-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/post-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../appspec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildspec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config_backup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../credentials/WAO Development-2d3647a90fa5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../credentials/WAO Production-f766f466240b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../credentials/firebase-account-credential-development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cron.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cron/dev/add_audit_tasks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cron/dev/cleanup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cron/dev/update_transaction.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cron/e2e/add_audit_tasks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cron/e2e/cleanup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cron/e2e/update_transaction.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cron/prod/add_audit_tasks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cron/prod/cleanup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cron/prod/update_transaction.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cron/staging/add_audit_tasks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cron/staging/cleanup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cron/staging/update_transaction.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../email_template_task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gen_params.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/celery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/cfg/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/cfg/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/cfg/e2e.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/cfg/free_email_domains.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/cfg/local.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/cfg/production.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/cfg/seo_categories/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/cfg/seo_categories/development.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/cfg/seo_categories/local.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/cfg/seo_categories/production.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/cfg/seo_categories/staging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/cfg/staging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/cfg/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/askers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/audit/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/audit/auditors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/audit/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/audit/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/audit/question.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/config_snapshots.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/explainer_onboarding/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/explainer_onboarding/campaigns.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/explainer_onboarding/explainer_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/explainer_onboarding/questions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/explainer_onboarding/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/explainer_onboarding/taxonomy_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/explainer_onboarding/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/explainers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/payments.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/portal_messages.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/problem_flows.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/problems.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/promo_codes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/seo_content.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/admin/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/ah/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/ah/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/ah/deferred.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/bug_report.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/courses.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/demo_sessions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/excel_problem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/explanation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/google.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/password_recovery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/payments.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/problem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/promo_codes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/query.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/rating.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/referral.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/reward.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/seo_content.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/state.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/team.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/asker/topic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/auditor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/auditor/audits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/auditor/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/auditor/profile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/contacts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/authorization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/connections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/device.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/explanation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/explanation_messages.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/google.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/notification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/onboarding.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/onboarding_course.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/password_recovery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/portal_messages.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/problems.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/query.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/rating.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/referral.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/state.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/statistic/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/statistic/audits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/statistic/comments.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/statistic/current_problem_flow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/statistic/earnings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/statistic/historical_problem_flow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/statistic/performances.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/explainer/statistic/working_history.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/files.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/paypal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/pusher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/request_hooks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/telesales/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/telesales/contacts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/uploads.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/webhook/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/controllers/webhook/database_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/delayed_deferred.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/analytics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/asker_creator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/audit/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/audit/filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/audit/form.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/audit/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/audit/profile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/audit/tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/authorization_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/automated_message/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/automated_message/automated_message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/automated_message/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/automated_message/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/cleanup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/data_cleanup/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/data_cleanup/file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/data_cleanup/session.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/data_manager/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/data_manager/data_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/data_synchronization/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/data_synchronization/asker_info_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/data_synchronization/errors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/data_synchronization/on_commited_handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/data_synchronization/salesforce.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/data_synchronization/salesforce_event_handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/data_synchronization/track_change.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/data_synchronization/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/database/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/database/context.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/database/database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/database/error.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/database/event_handlers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/database/event_handlers/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/database/event_handlers/interface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/database/event_handlers/query.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/database/events/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/database/events/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/database/events/database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/database/events/interface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/database/events/query.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/database/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/database/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/database/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/email_sending.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/explainer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/explainer_stat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/explainer_statistic/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/explainer_statistic/current_problem_flow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/explainer_statistic/earning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/explainer_statistic/historical_problem_flow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/explainer_statistic/performance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/explainer_statistic/statistics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/explainer_statistic/tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/explainer_statistic/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/explanation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/explanation_phase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/feature/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/feature/feature.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/feature/features/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/feature/features/interface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/feature/features/query/EG1/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/feature/features/query/EG1/features.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/feature/features/query/EG2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/feature/features/query/EG2/features.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/feature/features/query/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/file_manager/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/file_manager/file_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/file_url.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/freemium.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/interface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG0/E1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG0/E8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG0/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG1/E1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG1/E2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG1/E3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG1/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG2/E1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG2/E2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG2/E3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG_E2E/E1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG_E2E/E2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG_E2E/E3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG_E2E/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG_MENTEE/E1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG_MENTEE/E2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG_MENTEE/E3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/EG_MENTEE/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/freemium/states/query/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/learning/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/learning/course.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/learning/learning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/learning/module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/mentoring/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/mentoring/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/mentoring/errors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/mentoring/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/mentoring/mentee.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/mentoring/mentor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/mentoring/mentoring.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/mentoring/rating.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/meta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/mixpanel/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/mixpanel/asker_task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/mixpanel/explainer_helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/mixpanel/explainer_task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/mixpanel/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/conditions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/conditions/default.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/conditions/got_exact_match_offer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/conditions/got_offer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/conditions/got_special_offer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/conditions/in_session.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/conditions/interface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/monetization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/interface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/EG1/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/EG1/default.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/EG1/exact_match_offer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/EG1/offer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/EG1/special_offer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/EG2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/EG2/default.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/EG2/exact_match_offer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/EG2/offer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/EG2/special_offer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/EG_MENTEE/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/EG_MENTEE/default.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/EG_MENTEE/exact_match_offer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/EG_MENTEE/offer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/EG_MENTEE/special_offer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/default.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/exact_match_offer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/in_session.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/offer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/storefronts/query/special_offer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/subscription.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/subscriptions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/subscriptions/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/subscriptions/interface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/subscriptions/trial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/subscriptions/unlimited.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/monetization/tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/notification/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/notification/behavior/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/notification/behavior/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/notification/behavior/interface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/notification/behavior/problem_flow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/notification/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/notification/notification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/obfuscation/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/obfuscation/obfuscation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/obfuscation/providers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/obfuscation/providers/google.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/onboarding/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/onboarding/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/onboarding/onboarding.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/onboarding/onboarding_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/onboarding/policy_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/onboarding/pool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/onboarding/subject_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/onboarding/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/password_recovery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/payment/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/payment/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/payment/paygates/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/payment/paygates/paypal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/payment/paygates/upwork/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/payment/paygates/upwork/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/payment/paygates/upwork/tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/payment/paygates/upwork/upwork_payment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/payment/payment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/portal_message/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/portal_message/conditions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/portal_message/conditions/interface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/portal_message/conditions/query/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/portal_message/conditions/query/session_count.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/portal_message/portal_message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/privacy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/problem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/problem_flow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/promo_code/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/promo_code/error.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/promo_code/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/promo_code/promo_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/pusher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/ranking/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/ranking/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/ranking/ranking.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/ranking/ranking_configs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/referral.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/reward.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/rre.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/state_machine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/task_scheduler/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/task_scheduler/errors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/task_scheduler/task_scheduler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/task_scheduler/tasks/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/task_scheduler/tasks/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/task_scheduler/tasks/subscription/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/task_scheduler/tasks/subscription/retry_renew_subscription.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/text_filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/upload/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/upload/drive/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/upload/drive/google.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/upload/drive/microsoft.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/upload/drive/microsoft_logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/upload/storage/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/upload/storage/s3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/upload/upload.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/url_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/user_management.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/user_tagging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/visitor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/visitor/asker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/engines/visitor/explainer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/enums.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/errors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/jwttoken.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/account_kit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/aws_lambda/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/aws_lambda/aws_lambda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/aws_lambda/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/benchmark.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/condition_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/content_filtering.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/email.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/email_sending.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/encryption/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/encryption/encryption.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/file_collaboration/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/file_collaboration/drive/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/file_collaboration/drive/google_drive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/file_collaboration/drive/one_drive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/file_collaboration/file_collaboration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/file_collaboration/log/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/file_collaboration/log/microsoft_logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/file_storage/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/file_storage/file_storage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/file_storage/storage/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/file_storage/storage/s3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/firepad/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/firepad/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/firepad/firepad.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/google.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/google_spreadsheet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/gotit_api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/gotit_api/gotit_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/gotit_api/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/hubspot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/ip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/linkedin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/mixpanel_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/push_notification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/rate_limit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/salesforce/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/salesforce/salesforce.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/salesforce/streaming/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/salesforce/streaming/bayeux.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/salesforce/streaming/requests_oauth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/salesforce/streaming/streaming_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/schema_processor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/schema_processor/processor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/schema_processor/services/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/schema_processor/services/google.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/schema_processor/services/interface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/schema_processor/template_spreadsheet_creator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/simple_salesforce/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/simple_salesforce/__version__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/simple_salesforce/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/simple_salesforce/bulk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/simple_salesforce/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/simple_salesforce/login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/simple_salesforce/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/slack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/slack_bot/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/slack_bot/slack_bot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/slack_notification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/tracking/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/tracking/ga/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/tracking/ga/event.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/tracking/ga/ga.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/tracking/ga/report.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/utils/date_time.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/utils/dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/utils/diff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/utils/explainer_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/utils/file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/utils/float_operator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/utils/misc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/utils/password.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/utils/problem_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/utils/recaptcha_validator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/utils/singleton.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/utils/string.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/utils/validator_input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/libs/zendesk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/admin_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker_attachment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker_ban.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker_bug_report.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker_change_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker_course.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker_course_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker_gift.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker_meta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker_offer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker_promo_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker_rating.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker_referral.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker_referral_email_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker_reward.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker_survey.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker_survey_response.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/asker_vertical.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/audit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/audit_explainer_subject.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/audit_explainer_vertical.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/audit_filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/audit_form.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/audit_form_category.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/audit_question.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/audit_result.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/auditor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/auditor_subject.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/authorization_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/braintree_transaction_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/config_snapshot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/context.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/course.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/course_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/course_subscriber.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/economy_group_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_ban.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_credits_earning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_credits_earning_stat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_daily_stat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_device.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_earning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_meta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_notification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_online_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_performance_stat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_portal_message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_rank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_rank_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_rank_history.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_rating.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_referral.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_state.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_subject.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_visitor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explainer_working_hour_stat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explanation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explanation_message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/explanation_participant.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/fme_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/historical_problem_flow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/mentoring_program.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/microsoft_domain_white_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/microsoft_email_white_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/notification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/offer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/onboarding_campaign.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/onboarding_course.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/onboarding_explainer_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/onboarding_question.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/onboarding_question_response.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/onboarding_taxonomy_tag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/onboarding_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/payment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/payment_batch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/portal_message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/problem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/problem_flow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/problem_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/problem_meta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/problem_state.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/promo_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/route.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/scheduled_task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/seo_content_comment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/sku.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/storefront.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/subscribed_email.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/subscription.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/subscription_renewal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/system_bad_word.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/tag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/team.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/team_member.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/telesales_contact.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/topic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/transaction_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/upwork_payment_history.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/models/visitor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/pusher_hooks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/pw.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/router.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/asker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/attachment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/audit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/audit_question.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/course.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/excel_problem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/explainer_onboarding.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/explainer_statistic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/explanation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/learning_course.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/monetization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/pagination.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/portal_messages.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/privacy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/problem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/query.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/referral.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/seo_content_comment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/state.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/upload.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/schemas/utm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../migrations/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../migrations/alembic.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../migrations/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../migrations/script.py.mako" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../migrations/versions/3435ea72b852_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../params.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pusher.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../put_params.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../run_tests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../salesforce_task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scripts/install.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scripts/start.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scripts/stop.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../start_server.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/GeoLite2-Country.mmdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/csv/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/asker-gift.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/big-team-subscription-purchase.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/cancel-subscription-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/course-welcome-email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/end-session-email-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/expert-payment-fail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/expert-payment-success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/expert-payment-warning.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/expert-referral.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/mentoring-session-failed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/package-purchase-receipt-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/referral-email-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/renew-subscription-fail-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/reset-password-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/small-team-subscription-purchase.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/subscription-purchase.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/thank-you-email-for-referrer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/trial-subscription-purchase.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/welcome-email-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/email_templates/welcome-learning-email-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/excel_files/blank.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/excel_files/blank.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/excel_files/blank.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/excel_files/private_excel_file.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../static/images/test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/celery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tasks/delay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/askers_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/audit/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/audit/auditors_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/audit/filters_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/audit/forms_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/audit/questions_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/auth_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/config_snapshots_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/configs_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/explainer_onboarding/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/explainer_onboarding/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/explainer_onboarding/onboarding_campaigns_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/explainer_onboarding/onboarding_explainer_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/explainer_onboarding/onboarding_questions_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/explainer_onboarding/onboarding_taxonomy_tags_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/explainer_onboarding/onboarding_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/explainers_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/payment_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/portal_messages_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/problem_flow_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/problems_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/promo_code_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/seo_content_comment_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/admin/settings_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/asker_auth_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/asker_bug_report.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/asker_config_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/asker_info_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/asker_trial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/course_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/demo_session_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/excel_problem_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/google_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/message_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/password_recover_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/payment_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/problem_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/query_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/referral_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/seo_content_comment_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/state_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/storefront_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/subscription_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/team_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/askers/track_change_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/auditor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/auditor/audit_session_selector_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/auditor/audits_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/auditor/auth_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/auditor/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/auditor/profile_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/automated_message_engine_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/db_service_helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/email_template_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/admin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/admin/admin_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/admin/search_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/audit/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/audit/filter_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/audit/profile_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/audit/tasks_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/authorization_service_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/cleanup/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/cleanup/cleanup_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/data_synchronization/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/data_synchronization/salesforce_event_handler_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/data_synchronization/salesforce_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/database/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/database/data_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/email_sending_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/explainer_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/explanation_phase_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/explanation_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/mentoring/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/mentoring/config_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/mentoring/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/mentoring/mentee_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/mentoring/mentor_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/mentoring/mentoring_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/monetization/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/monetization/monetization_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/monetization/subscriptions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/monetization/subscriptions/base_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/onboarding/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/onboarding/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/onboarding/onboarding_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/onboarding/onboarding_test_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/onboarding/policy_test_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/onboarding/pool_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/password_recovery_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/payment/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/payment/misc_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/payment/payment_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/problem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/pusher/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/pusher/pusher_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/ranking/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/ranking/ranking_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/referral/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/referral/referral_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/state_machine_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/task_scheduler/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/task_scheduler/task_scheduler_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/task_scheduler/tasks/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/task_scheduler/tasks/base_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/task_scheduler/tasks/subscription/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/task_scheduler/tasks/subscription/retry_renew_subscription_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/text_filter_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/upload/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/upload/data/change_item_to_read_only_calls.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/upload/data/large_upload_calls.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/upload/drive_microsoft_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/upload/storage_s3_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/upload/upload_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/user_management.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/visitor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/visitor/asker_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/engines/visitor/explainer_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/autosend_offer_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/device_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/explainer_auth_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/explainer_info_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/explanation_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/messages_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/notification_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/onboarding_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/portal_message_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/problems_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/query_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/state_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/statistics/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/statistics/comment_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/statistics/current_problem_flow_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/statistics/historical_problem_flow_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/statistics/performance_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/explainers/update_and_maintenance_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/feature_engine_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/file_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/fme_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/account_kit_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/benchmark_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/content_filtering_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/email_sending_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/email_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/firepad_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/google_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/ip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/log_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/push_notification_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/rate_limit_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/slack_notification_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/tracking/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/tracking/ga/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/tracking/ga/ga_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/tracking/ga/report_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/utils/date_time_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/utils/dict_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/utils/diff_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/utils/explainer_info_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/utils/file_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/utils/float_operator_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/utils/misc_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/utils/password_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/utils/problem_info_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/utils/recaptcha_validator_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/utils/string_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/libs/utils/validator_input_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/mentee_rating_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/mixpanel_engine_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/models/config_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/models/mentoring_program.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/models/seo_content_comment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/monetization_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/portal_message_engine_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/pusher_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/rating_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/router_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/sample_config/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/sample_config/sample_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/sample_config/seo_content.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/telesales/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/telesales/telesales_contacts_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/topic_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/user_tagging_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wsgi.py" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Home/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="105" column="28" lean-forward="true" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style/home.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3683">
+              <caret line="1884" column="25" lean-forward="true" selection-start-line="1884" selection-start-column="25" selection-end-line="1884" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style/App.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sty</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/App.js" />
+        <option value="$PROJECT_DIR$/src/style/home.css" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/src/style/App.css" />
+        <option value="$PROJECT_DIR$/src/components/Home/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="901" />
+    <option name="width" value="539" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="news-search" type="b2602c69:ProjectViewProjectNode" />
+              <item name="news-search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="news-search" type="b2602c69:ProjectViewProjectNode" />
+              <item name="news-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="news-search" type="b2602c69:ProjectViewProjectNode" />
+              <item name="news-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="news-search" type="b2602c69:ProjectViewProjectNode" />
+              <item name="news-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="news-search" type="b2602c69:ProjectViewProjectNode" />
+              <item name="news-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfcc447e-27f0-4e7b-a0b9-64e42bf40264" name="Default Changelist" comment="" />
+      <created>1573959294794</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573959294794</updated>
+      <workItem from="1573959296260" duration="2465000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2465000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/assets/baseline-search-24px.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3683">
+          <caret line="1884" column="25" lean-forward="true" selection-start-line="1884" selection-start-column="25" selection-end-line="1884" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="105" column="28" lean-forward="true" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

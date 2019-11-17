@@ -1,0 +1,64 @@
+/* CSS variables */
+:root {
+  --primary: #201e1f;
+  --gray: #3e3e3e;
+  --light: #fefffe;
+  --shadow: 0px 5px 5px rgba(104, 104, 104, 0.8);
+  --easeOut: all 0.5s ease-out;
+}
+
+.banner {
+  background-image: url(../assets/banner.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 80vh;
+  color: #fff;
+  position: relative;
+}
+
+.banner .content {
+  z-index: 2;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  height: 20vh;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: 300;
+  line-height: 60px;
+}
+
+.back {
+  position: absolute;
+  height: 80vh;
+  width: 100%;
+  z-index: 1;
+  background: #000000;
+  opacity: 0.5;
+}
+
+.content p {
+  color: hsla(0, 0%, 100%, 0.8);
+}
+
+.search input[type="text"] {
+  width: 100%;
+  padding-left: 20px;
+  border-radius: 30px;
+  box-shadow: var(--shadow);
+  border: none;
+  font-size: 1em;
+}
+
+.search img {
+  width: 40px;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+.search img:hover {
+  cursor: pointer;
+}
