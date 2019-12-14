@@ -13,7 +13,7 @@ export const App = props => (
     <div className="App">
       <Switch>
         <Route path="/" exact component={HomePage} />
-        <Route path="/detail/:id" exact component={DetailPage}  />
+        <Route path="/detail/:title" exact component={DetailPage}  />
         <Route component={Page404} />
       </Switch>
     </div>

@@ -62,3 +62,22 @@
 .search img:hover {
   cursor: pointer;
 }
+
+/* Pagination Style */
+.pagination {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.pagination li {
+  padding: 5px 10px;
+  border: 1px solid #403f3e;
+}
+
+.pagination li:hover {
+  background: #ff8700;
+}
+
+.active {
+  background: #ff8700;
+}

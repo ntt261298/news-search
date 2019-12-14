@@ -1,144 +1,124 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import Pagination from 'react-js-pagination';
 import '../../style/home.css';
 
-export const HomePage = () => (
-  <div>
-      <div className="back"/>
-      <div className="banner">
-            <div className="content">
-                <div className="search">
-                    <input type="text" placeholder="Find news..." alt=""/>
-                    <img src={require("../../assets/baseline-search-24px.svg")} alt=""/>
+export const HomePage = () => {
+    const [query, setQuery] = useState('');
+    const [data, setData] = useState([]);
+    const [totalDocs, setTotalDocs] = useState(0);
+    const [isSearchResult, setIsSearchResult] = useState(false);
+    const [activePage, setActivePage] = useState(1);
+
+    useEffect(async () =>{
+        let formData = new FormData();
+        formData.append('query', 'all');
+        formData.append('start', 0);
+        formData.append('rows', 5);
+        const response = await fetch('http://127.0.0.1:5000/search', {
+            method: 'POST',
+            body: formData,
+        })
+        const data = await response.json();
+        console.log(data);
+        setData(data['docs']);
+        setTotalDocs(data['numFound']);
+    }, [])
+
+    const onSearchClick = async () => {
+        let formData = new FormData();
+        formData.append('query', query);
+        formData.append('start', 0);
+        formData.append('rows', 5);
+        const response = await fetch('http://127.0.0.1:5000/search', {
+            method: 'POST',
+            body: formData,
+        })
+        const data = await response.json();
+        console.log(data);
+        setData(data['docs']);
+        setTotalDocs(data['numFound']);
+        setIsSearchResult(true);
+    }
+
+    const onPageChange = async (pageNumber) => {
+        setActivePage(pageNumber);
+        const query = isSearchResult ? query : 'all'
+        // If results are from search action
+        let formData = new FormData();
+        formData.append('query', query);
+        formData.append('start', (pageNumber - 1)*5);
+        formData.append('rows', 5);
+        const response = await fetch('http://127.0.0.1:5000/search', {
+            method: 'POST',
+            body: formData,
+        })
+        const data = await response.json();
+        setData(data['docs']);
+        setTotalDocs(data['numFound']);     
+    }
+
+    return (
+        <div>
+            <div className="back"/>
+            <div className="banner">
+                    <div className="content">
+                        <div className="search">
+                            <input 
+                                type="text" placeholder="Find news..." alt=""
+                                onChange={(e) => setQuery(e.target.value)}    
+                            />
+                            <img 
+                                src={require("../../assets/baseline-search-24px.svg")} alt=""
+                                onClick={onSearchClick}
+                            />
+                        </div>
+                    </div>
+                </div>
+            <div className="section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <div className="section-title">
+                                        <h2>{isSearchResult ? 'Search Result' : 'All News'}</h2> {`(Total: ${totalDocs})`}
+                                    </div>
+                                </div>
+                                {
+                                    data.map(item => (
+                                        <div className="col-md-12">
+                                            <div className="post post-row">
+                                                <a className="post-img" href={`/detail/${item.title[0]}`}><img src={require(`../../assets/${item.thumbnail[0].substr(2)}`)} alt=""/></a>
+                                                <div className="post-body">
+                                                    <div className="post-meta">
+                                                        <a className="post-category cat-2" href="">{item.author[0]}</a>
+                                                        <span className="post-date">{item.time[0]}</span>
+                                                    </div>
+                                                    <h3 className="post-title"><a href={`/detail/${item.title[0]}`}>{item.title[0]}</a></h3>
+                                                    <p>{item.description[0]}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ))
+                                }
+
+                                <div className="col-md-12">
+                                    <Pagination
+                                        activePage={activePage}
+                                        itemsCountPerPage={5}
+                                        totalItemsCount={totalDocs}
+                                        pageRangeDisplayed={5}
+                                        onChange={onPageChange}
+                                    />
+                                </div>
+                            </div>
+                    
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-      <div className="section">
-          <div className="container">
-              <div className="row">
-                  <div className="col-md-8">
-                      <div className="row">
-                          <div className="col-md-12">
-                              <div className="section-title">
-                                  <h2>Most Read</h2>
-                              </div>
-                          </div>
-                          <div className="col-md-12">
-                              <div className="post post-row">
-                                  <a className="post-img" href="/"><img src={require("../../assets/post-4.jpg")} alt=""/></a>
-                                  <div className="post-body">
-                                      <div className="post-meta">
-                                          <a className="post-category cat-2" href="">JavaScript</a>
-                                          <span className="post-date">March 27, 2018</span>
-                                      </div>
-                                      <h3 className="post-title"><a href="/">Chrome Extension Protects
-                                          Against JavaScript-Based CPU Side-Channel Attacks</a></h3>
-                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                          veniam...</p>
-                                  </div>
-                              </div>
-                          </div>
-
-                          <div className="col-md-12">
-                              <div className="post post-row">
-                                  <a className="post-img" href=""><img src={require("../../assets/post-6.jpg")} alt="" /></a>
-                                  <div className="post-body">
-                                      <div className="post-meta">
-                                          <a className="post-category cat-2" href="">JavaScript</a>
-                                          <span className="post-date">March 27, 2018</span>
-                                      </div>
-                                      <h3 className="post-title"><a href="">Why Node.js Is The Coolest
-                                          Kid On The Backend Development Block!</a></h3>
-                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                          veniam...</p>
-                                  </div>
-                              </div>
-                          </div>
-
-                          <div className="col-md-12">
-                              <div className="post post-row">
-                                  <a className="post-img" href=""><img src={require("../../assets/post-3.jpg")} alt="" /></a>
-                                  <div className="post-body">
-                                      <div className="post-meta">
-                                          <a className="post-category cat-4" href="">Css</a>
-                                          <span className="post-date">March 27, 2018</span>
-                                      </div>
-                                      <h3 className="post-title"><a href="">CSS Float: A Tutorial</a>
-                                      </h3>
-                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                          veniam...</p>
-                                  </div>
-                              </div>
-                          </div>
-
-                          <div className="col-md-12">
-                              <div className="post post-row">
-                                  <a className="post-img" href=""><img src={require("../../assets/post-2.jpg")} alt="" /></a>
-                                  <div className="post-body">
-                                      <div className="post-meta">
-                                          <a className="post-category cat-3" href="">Jquery</a>
-                                          <span className="post-date">March 27, 2018</span>
-                                      </div>
-                                      <h3 className="post-title"><a href="">Ask HN: Does Anybody Still
-                                          Use JQuery?</a></h3>
-                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                          veniam...</p>
-                                  </div>
-                              </div>
-                          </div>
-
-                          <div className="col-md-12">
-                              <div className="section-row">
-                                  <button className="primary-button center-block">Load More</button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div className="col-md-4">
-                      <div className="aside-widget text-center">
-                          <a href="#" style={{display: 'inline-block', margin: 'auto'}}>
-                              <img className="img-responsive" src={require("../../assets/ad-1.jpg")} alt="" />
-                          </a>
-                      </div>
-
-                      <div className="aside-widget">
-                          <div className="section-title">
-                              <h2>Catagories</h2>
-                          </div>
-                          <div className="category-widget">
-                              <ul>
-                                  <li><a href="#" className="cat-1">Web Design<span>340</span></a></li>
-                                  <li><a href="#" className="cat-2">JavaScript<span>74</span></a></li>
-                                  <li><a href="#" className="cat-4">JQuery<span>41</span></a></li>
-                                  <li><a href="#" className="cat-3">CSS<span>35</span></a></li>
-                              </ul>
-                          </div>
-                      </div>
-
-                      <div className="aside-widget">
-                          <div className="tags-widget">
-                              <ul>
-                                  <li><a href="#">Chrome</a></li>
-                                  <li><a href="#">CSS</a></li>
-                                  <li><a href="#">Tutorial</a></li>
-                                  <li><a href="#">Backend</a></li>
-                                  <li><a href="#">JQuery</a></li>
-                                  <li><a href="#">Design</a></li>
-                                  <li><a href="#">Development</a></li>
-                                  <li><a href="#">JavaScript</a></li>
-                                  <li><a href="#">Website</a></li>
-                              </ul>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-);
+    )
+}
 
 export default HomePage;
