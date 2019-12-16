@@ -42,10 +42,10 @@ export const HomePage = () => {
 
     const onPageChange = async (pageNumber) => {
         setActivePage(pageNumber);
-        const query = isSearchResult ? query : 'all'
+        const final_query = isSearchResult ? query : 'all'
         // If results are from search action
         let formData = new FormData();
-        formData.append('query', query);
+        formData.append('query', final_query);
         formData.append('start', (pageNumber - 1)*5);
         formData.append('rows', 5);
         const response = await fetch('http://127.0.0.1:5000/search', {

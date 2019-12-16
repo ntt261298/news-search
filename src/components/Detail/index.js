@@ -8,8 +8,9 @@ export const DetailPage = (props) => {
 
     useEffect(async () =>{
         const title = props.match.params.title;
+        console.log(title);
         let formData = new FormData();
-        formData.append('query', 'lao');
+        formData.append('query', title);
         formData.append('start', 0);
         formData.append('rows', 1);
         const response = await fetch('http://127.0.0.1:5000/search', {
@@ -17,6 +18,7 @@ export const DetailPage = (props) => {
             body: formData,
         })
         const data = await response.json();
+        console.log(data);
         setData(data['docs']);
     }, [])
 
