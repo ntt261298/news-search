@@ -4,6 +4,7 @@ import '../../style/home.css';
 
 export const HomePage = () => {
     const [query, setQuery] = useState('');
+    const [results, setResults] = useState([]);
     const [data, setData] = useState([]);
     const [totalDocs, setTotalDocs] = useState(0);
     const [isSearchResult, setIsSearchResult] = useState(false);
@@ -14,10 +15,13 @@ export const HomePage = () => {
         formData.append('query', 'all');
         formData.append('start', 0);
         formData.append('rows', 5);
+        formData.append('searching', false);
+
         const response = await fetch('http://127.0.0.1:5000/search', {
             method: 'POST',
             body: formData,
         })
+
         const data = await response.json();
         console.log(data);
         setData(data['docs']);
@@ -29,6 +33,8 @@ export const HomePage = () => {
         formData.append('query', query);
         formData.append('start', 0);
         formData.append('rows', 5);
+        formData.append('searching', false);
+
         const response = await fetch('http://127.0.0.1:5000/search', {
             method: 'POST',
             body: formData,
@@ -48,6 +54,8 @@ export const HomePage = () => {
         formData.append('query', final_query);
         formData.append('start', (pageNumber - 1)*5);
         formData.append('rows', 5);
+        formData.append('searching', false);
+
         const response = await fetch('http://127.0.0.1:5000/search', {
             method: 'POST',
             body: formData,
@@ -55,6 +63,22 @@ export const HomePage = () => {
         const data = await response.json();
         setData(data['docs']);
         setTotalDocs(data['numFound']);     
+    }
+
+    const onQueryChange = async (e) => {
+        setQuery(e.target.value);
+        let formData = new FormData();
+        formData.append('query', e.target.value);
+        formData.append('start', 0);
+        formData.append('rows', 4);
+        formData.append('searching', true);
+        const response = await fetch('http://127.0.0.1:5000/search', {
+            method: 'POST',
+            body: formData,
+        })
+        const data = await response.json();
+        console.log(data)
+        setResults(data['docs']);
     }
 
     return (
@@ -65,12 +89,26 @@ export const HomePage = () => {
                         <div className="search">
                             <input 
                                 type="text" placeholder="Find news..." alt=""
-                                onChange={(e) => setQuery(e.target.value)}    
+                                onChange={onQueryChange}    
                             />
                             <img 
                                 src={require("../../assets/baseline-search-24px.svg")} alt=""
                                 onClick={onSearchClick}
                             />
+                        </div>
+                        <div className="search-results">
+                            {
+                                query ? (
+                                results.map(({_id, title}) => {
+                                    console.log(title[0].length)
+                                   const etc = title[0].length >= 60 ? '...' : '';
+                                  return (
+                                    <a href={`/detail/${title[0]}`}>
+                                        <p  key={_id}>{`${title[0].slice(0, 60)}${etc}`}</p>
+                                    </a>
+                                )})
+                                ) : null
+                            }
                         </div>
                     </div>
                 </div>
@@ -112,7 +150,6 @@ export const HomePage = () => {
                                     />
                                 </div>
                             </div>
-                    
                         </div>
                     </div>
                 </div>
