@@ -83,6 +83,15 @@
 }
 
 .search-results p {
-  margin: 0 0 5px;
+  margin: 0;
   font-size: 1rem;
+  background: #444;
+  border-bottom: 0.7px solid white;
+}
+.search-results p:hover {
+  color: #ff8700;
+}
+
+a {
+  text-decoration: none !important;
 }
