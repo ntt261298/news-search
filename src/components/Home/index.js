@@ -2,6 +2,11 @@ import React, { useState, useEffect } from 'react';
 import Pagination from 'react-js-pagination';
 import '../../style/home.css';
 
+const replaceUnderLineBySpace = (str) => {
+    const new_str = str.split('_').join(' ');
+    return new_str;
+}
+
 export const HomePage = () => {
     const [query, setQuery] = useState('');
     const [results, setResults] = useState([]);
@@ -61,6 +66,8 @@ export const HomePage = () => {
             body: formData,
         })
         const data = await response.json();
+
+        console.log(data);
         setData(data['docs']);
         setTotalDocs(data['numFound']);     
     }
@@ -103,8 +110,8 @@ export const HomePage = () => {
                                     console.log(title[0].length)
                                    const etc = title[0].length >= 60 ? '...' : '';
                                   return (
-                                    <a href={`/detail/${title[0]}`}>
-                                        <p  key={_id}>{`${title[0].slice(0, 60)}${etc}`}</p>
+                                    <a href={`/detail/${replaceUnderLineBySpace(title[0])}`}>
+                                        <p  key={_id}>{`${replaceUnderLineBySpace(title[0].slice(0, 60))}${etc}`}</p>
                                     </a>
                                 )})
                                 ) : null
@@ -126,14 +133,14 @@ export const HomePage = () => {
                                     data.map(item => (
                                         <div className="col-md-12">
                                             <div className="post post-row">
-                                                <a className="post-img" href={`/detail/${item.title[0]}`}><img src={require(`../../assets/${item.thumbnail[0].substr(2)}`)} alt=""/></a>
+                                                <a className="post-img" href={`/detail/${replaceUnderLineBySpace(item.title[0])}`}><img src={require(`../../assets/${item.thumbnail[0].substr(2)}`)} alt=""/></a>
                                                 <div className="post-body">
                                                     <div className="post-meta">
-                                                        <a className="post-category cat-2" href="">{item.author[0]}</a>
+                                                        <a className="post-category cat-2" href="">{replaceUnderLineBySpace(item.author[0])}</a>
                                                         <span className="post-date">{item.time[0]}</span>
                                                     </div>
-                                                    <h3 className="post-title"><a href={`/detail/${item.title[0]}`}>{item.title[0]}</a></h3>
-                                                    <p>{item.description[0]}</p>
+                                                    <h3 className="post-title"><a href={`/detail/${replaceUnderLineBySpace(item.title[0])}`}>{replaceUnderLineBySpace(item.title[0])}</a></h3>
+                                                    <p>{replaceUnderLineBySpace(item.description[0])}</p>
                                                 </div>
                                             </div>
                                         </div>
